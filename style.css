@@ -1,0 +1,211 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff4f8;
+    color: #333333;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #762c91;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffd166;
+}
+
+main {
+    width: 85%;
+    max-width: 1000px;
+    margin: 25px auto;
+}
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+}
+
+h2 {
+    color: #762c91;
+    font-size: 28px;
+}
+
+h3 {
+    color: #e84393;
+}
+
+.hero {
+    text-align: center;
+}
+
+.festival-image {
+    width: 100%;
+    max-width: 750px;
+    height: auto;
+    border-radius: 12px;
+    margin: 20px 0;
+}
+
+.event-info {
+    background-color: #f3e5f5;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.highlight {
+    border-left: 6px solid #e84393;
+}
+
+.highlight li {
+    margin-bottom: 8px;
+}
+
+.program {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    background-color: #762c91;
+    color: white;
+}
+
+th, td {
+    border: 1px solid #cccccc;
+    padding: 12px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f3e5f5;
+}
+
+tr:hover {
+    background-color: #ffe0ef;
+}
+
+
+.button {
+    display: inline-block;
+    background: linear-gradient(135deg, #ff8fc7, #d88bff);
+    color: white;
+    padding: 15px 30px;
+    margin-top: 15px;
+    border: 2px solid white;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    box-shadow: 0 5px 15px rgba(230, 105, 180, 0.35);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background: linear-gradient(135deg, #f45ca8, #b66bfa);
+    box-shadow: 0 8px 22px rgba(230, 105, 180, 0.5);
+    transform: translateY(-3px) scale(1.03);
+}
+
+
+.contact {
+    background-color: #f3e5f5;
+}
+
+.registration {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form select,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+form input[type="submit"] {
+    margin-top: 20px;
+}
+
+.registration a {
+    color: #762c91;
+}
+
+footer {
+    background-color: #762c91;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    header h1 {
+        font-size: 27px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px 8px;
+    }
+
+    main {
+        width: 92%;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+}

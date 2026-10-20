@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Записване за участие</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Стани част от фестивала!</h1>
+        <p>Покажи своя талант!</p>
+    </header>
+
+    <main>
+        <section class="registration">
+            <h2>Форма за записване</h2>
+            <p>Попълнете данните си, за да заявите участие.</p>
+
+            <form action="#" method="get">
+                <label for="names">Имена на участник:</label>
+                <input type="text" id="names" name="names" required>
+
+                <label for="email">Имейл:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Телефон за контакт:</label>
+                <input type="tel" id="phone" name="phone">
+
+                <label for="activity">В какво ще участвате?</label>
+                <select id="activity" name="activity" required>
+                    <option value="">Изберете дейност</option>
+                    <option value="music">Музикално изпълнение</option>
+                    <option value="dance">Танци</option>
+                    <option value="art">Рисуване</option>
+                    <option value="project">Ученически проект</option>
+                    <option value="sport">Спорт</option>
+                </select>
+
+                <label for="details">Допълнителна информация:</label>
+                <textarea id="details" name="details" rows="4"></textarea>
+
+                <input type="submit" value="Изпрати заявка" class="button">
+            </form>
+
+            <p><a href="festival.html">Обратно към главната страница</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2027 Вашето училище | „Училището има талант“</p>
+    </footer>
+
+</body>
+</html>
